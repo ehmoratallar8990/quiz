@@ -78,7 +78,7 @@ export default {
   },
   methods: {
     clear() {
-      this.inputValue = null;
+      // this.inputValue = null;
       this.selected = null;
       this.readonly = false;
       this.selectedAnswer = null;
@@ -90,7 +90,7 @@ export default {
         return;
       }
       this.selected = inputValue;
-      this.readonly = true;
+      // this.readonly = true;
     },
     selectAnswer(index) {
       this.selectedAnswer = index;
