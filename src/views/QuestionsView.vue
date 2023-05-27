@@ -84,6 +84,7 @@ export default {
       this.selectedAnswer = null;
     },
     select() {
+      this.selectedAnswer = null;
       const { inputValue, validQuestions } = this;
       if (inputValue < 1 || inputValue > validQuestions.length) {
         this.clear();
