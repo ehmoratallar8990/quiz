@@ -1,3 +1,4 @@
+<!-- eslint-disable vuejs-accessibility/click-events-have-key-events -->
 <!-- eslint-disable vuejs-accessibility/label-has-for -->
 <template>
   <div class="questions-view">
@@ -6,20 +7,36 @@
       <p>Preguntas disponibles: {{ validQuestions.length }}</p>
       <!-- <pre>{{ questions }}</pre> -->
       <!-- <pre>{{ validQuestions }}</pre> -->
-      <pre>inputValue: {{ inputValue }}</pre>
+      <!-- <pre>inputValue: {{ inputValue }}</pre> -->
     </div>
     <div class="question-select">
       <label htmlFor="question-number">Pregunta:</label>
       <input
         v-model="inputValue"
-        id="question-number" type="number" min="1" :max="validQuestions.length">
+        id="question-number" :readonly="readonly"
+        type="number" min="1" :max="validQuestions.length">
       <div class="controls">
         <button @click="clear" type="reset">Limpiar</button>
         <button @click="select" type="submit">Seleccionar</button>
       </div>
     </div>
-    <div class="question">
-      <pre>{{ selectedQuestion }}</pre>
+    <div v-if="selectedQuestion" class="question-container">
+      <!-- <pre>{{ selectedQuestion }}</pre> -->
+      <!-- <pre>{{ selectedAnswer }}</pre> -->
+      <h1>{{ selectedQuestion.question }}</h1>
+      <div class="answers-container" :class="{'selected': selectedAnswer != null }">
+        <div class="answer"
+            v-for="(answer, index) in selectedQuestion.answers"
+            :key="'answer-' + index"
+            :class="{
+              'selected': selectedAnswer === index,
+              'correct': answer.correct,
+              'incorrect': !answer.correct
+              }"
+            @click="selectAnswer(index)">
+          {{ answer.answer }}
+        </div>
+      </div>
     </div>
   </div>
 
@@ -33,7 +50,9 @@ export default {
     return {
       questions: questionDefinitions?.questions,
       selected: null,
-      inputValue: null,
+      inputValue: 1,
+      readonly: false,
+      selectedAnswer: null,
     };
   },
   computed: {
@@ -61,6 +80,8 @@ export default {
     clear() {
       this.inputValue = null;
       this.selected = null;
+      this.readonly = false;
+      this.selectedAnswer = null;
     },
     select() {
       const { inputValue, validQuestions } = this;
@@ -69,6 +90,10 @@ export default {
         return;
       }
       this.selected = inputValue;
+      this.readonly = true;
+    },
+    selectAnswer(index) {
+      this.selectedAnswer = index;
     },
   },
 };
@@ -106,6 +131,37 @@ export default {
       gap: 15px;
       margin: 15px 0;
       justify-content: center;
+    }
+  }
+  .question-container {
+    .answers-container {
+      .answer {
+        font-family: Avenir, Helvetica, Arial, sans-serif;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+        padding: 25px 25px;
+        border-radius: 5px;
+        border: 2px solid rgba(black, 0.4);
+        background-color: rgba(gray, 0.1);
+        margin: 25px 0;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      &.selected {
+        .answer {
+          &.selected {
+            background-color: rgba(orange, 0.8);
+            background-color: rgba(orange, 0.4);
+          }
+          &.correct {
+            background-color: rgba(green, 0.8);
+            background-color: rgba(green, 0.4);
+          }
+        }
+      }
     }
   }
 }
