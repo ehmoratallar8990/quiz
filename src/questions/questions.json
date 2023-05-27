@@ -1,0 +1,58 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es el objetivo del análisis y diseño de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Desarrollar software sin planificación previa.",
+                    "correct": false
+                },
+                {
+                    "answer": "Identificar y solucionar problemas en los sistemas existentes.",
+                    "correct": true
+                },
+                {
+                    "answer": "Diseñar sistemas de hardware avanzados.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es una técnica común de recolección de requerimientos?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Observación.",
+                    "correct": true
+                },
+                {
+                    "answer": "Codificación.",
+                    "correct": false
+                },
+                {
+                    "answer": "Programación.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "",
+            "enabled": false,
+            "answers": [
+                {
+                    "answer": "",
+                    "correct": false
+                },
+                {
+                    "answer": "",
+                    "correct": false
+                },
+                {
+                    "answer": "",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
