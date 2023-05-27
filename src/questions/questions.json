@@ -728,6 +728,190 @@
                     "answer": " La facilidad de uso y experiencia del usuario al interactuar con el sistema.",
                     "correct": true
                 }]
-}
+},
+        {
+            "question": "¿Cuál no es una ventaja de los prototipos?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Los usuarios pueden estar involucrados en el diseño",
+                    "correct": false
+                },
+                {
+                    "answer": "Los usuarios pueden interpretar equivocadamente la complejidad del sistema",
+                    "correct": true
+                },
+                {
+                    "answer": "Concreta los requerimientos de una manera clara",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es un sistema de información?",
+            "enabled": true,
+            "answers": [
+                {
+                "answer": "Un conjunto de componentes interrelacionados que recopilan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones y el control en una organización.",
+                "correct": true
+                },
+                {
+                "answer": "Un programa de computadora diseñado para realizar tareas específicas en una organización.",
+                "correct": false
+                },
+                {
+                "answer": "Una red de computadoras conectadas entre sí para compartir información.",
+                "correct": false
+                }
+            ]
+            },
+        {
+            "question": "¿Cuál es el objetivo del análisis de sistemas?",
+            "enabled": true,
+            "answers": [
+                
+                {
+                "answer": "Diseñar y desarrollar programas de computadora.",
+                "correct": false
+                },
+                {
+                    "answer": "Identificar los problemas y oportunidades en una organización y proponer soluciones basadas en sistemas de información.",
+                    "correct": true
+                    },
+                {
+                "answer": "Crear redes de computadoras para compartir información.",
+                "correct": false
+                }
+            ]
+            },
+        {
+      "question": "¿Cuál es el propósito del diseño de sistemas?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "Realizar pruebas y depurar programas de computadora.",
+          "correct": false
+        },
+        {
+          "answer": "Configurar y administrar servidores de red.",
+          "correct": false
+        },
+        {
+            "answer": "Definir cómo funcionará y se verá el sistema de información propuesto.",
+            "correct": true
+          }
+      ]
+    },
+        {
+      "question": "¿Cuál es el objetivo de la implementación de sistemas?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Optimizar el rendimiento de los programas de computadora.",
+          "correct": false
+        },
+        {
+          "answer": "Establecer políticas de seguridad en una red de computadoras.",
+          "correct": false
+        },
+        {
+          "answer": "Hacer funcionar el sistema de información propuesto en el entorno de la organización.",
+          "correct": true
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es el mantenimiento de sistemas?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "El proceso de corregir errores, realizar mejoras y adaptar el sistema de información a los cambios en la organización.",
+          "correct": true
+        },
+        {
+          "answer": "La migración de un sistema antiguo a una nueva tecnología.",
+          "correct": false
+        },
+        {
+          "answer": "La implementación de medidas de seguridad en una red de computadoras.",
+          "correct": false
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es la ingeniería de software?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "El diseño y la implementación de bases de datos.",
+          "correct": false
+        },
+        {
+          "answer": "La configuración y administración de servidores de red.",
+          "correct": false
+        },
+        {
+          "answer": "El enfoque sistemático y disciplinado para el desarrollo, operación y mantenimiento de software.",
+          "correct": true
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es el modelo entidad-relación?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "Una técnica para diagramar el flujo de datos en un sistema.",
+          "correct": false
+        },
+        {
+          "answer": "Un modelo de datos que representa las entidades, los atributos y las relaciones entre las entidades en una base de datos.",
+          "correct": true
+        },
+        {
+          "answer": "Un enfoque de desarrollo rápido de aplicaciones.",
+          "correct": false
+        }
+      ]
+    },
+        {
+            "question": "¿Cuál es el objetivo principal de la fase de prueba en el ciclo de vida de desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Documentar los procesos y flujos de datos del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Validar que el sistema cumpla con los requisitos establecidos.",
+                    "correct": true
+                },
+                {
+                    "answer": "Establecer políticas de seguridad en la red.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es un diagrama de casos de uso?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Una representación gráfica de las relaciones entre las entidades en una base de datos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Una técnica para documentar los requisitos del sistema basada en historias de usuario.",
+                    "correct": false
+                },
+                {
+                    "answer": "Un diagrama que muestra cómo interactúan los actores con el sistema para lograr ciertos objetivos.",
+                    "correct": true
+                }
+            ]
+        }
     ]
 }
