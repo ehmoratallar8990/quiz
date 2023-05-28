@@ -190,11 +190,11 @@ export default {
       &.selected {
         .answer {
           &.selected {
-            background-color: rgba(orange, 0.8);
+            border-color: rgba(orange, 0.8);
             background-color: rgba(orange, 0.4);
           }
           &.correct {
-            background-color: rgba(green, 0.8);
+            border-color: rgba(green, 0.8);
             background-color: rgba(green, 0.4);
           }
         }
