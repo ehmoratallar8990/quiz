@@ -1,864 +1,735 @@
 {
     "questions": [
         {
-            "question": "¿Cuál es el objetivo del análisis y diseño de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Desarrollar software sin planificación previa.",
-                    "correct": false
-                },
-                {
-                    "answer": "Identificar y solucionar problemas en los sistemas existentes.",
-                    "correct": true
-                },
-                {
-                    "answer": "Diseñar sistemas de hardware avanzados.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es una técnica común de recolección de requerimientos?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Observación.",
-                    "correct": true
-                },
-                {
-                    "answer": "Codificación.",
-                    "correct": false
-                },
-                {
-                    "answer": "Programación.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Qué representa un Diagrama de Flujo de Datos (DFD)?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "La estructura física de un sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "La secuencia de pasos para realizar una tarea.",
-                    "correct": false
-                },
-                {
-                    "answer": "El flujo de información entre los procesos de un sistema",
-                    "correct": true
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es una parte fundamental del diseño de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "La creación de casos de uso.",
-                    "correct": false
-                },
-                {
-                    "answer": "El diseño de la base de datos.",
-                    "correct": true
-                },
-                {
-                    "answer": "La documentación del sistema",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Qué implica el mantenimiento del sistema?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Corregir errores y mejorar el sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": "Desarrollar nuevas funcionalidades desde cero.",
-                    "correct": false
-                },
-                {
-                    "answer": "Eliminar por completo el sistema existente.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es el objetivo principal del análisis de requerimientos en el desarrollo de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Definir la estructura física del sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "Identificar las funcionalidades del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": "Diseñar la interfaz de usuario del sistema.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es la metodología ágil más utilizada en el desarrollo de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Waterfall.",
-                    "correct": false
-                },
-                {
-                    "answer": "SCRUM",
-                    "correct": true
-                },
-                {
-                    "answer": "RAD (Rapid Application Development)",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la interacción entre el sistema y sus usuarios?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Diagrama de flujo de datos.",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de casos de uso",
-                    "correct": true
-                },
-                {
-                    "answer": "Diccionario de datos",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es el objetivo principal de las pruebas de aceptación en el desarrollo de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Validar que el sistema cumple con los requisitos del cliente.",
-                    "correct": true
-                },
-                {
-                    "answer": "Identificar errores y corregirlos en el sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "Medir el rendimiento y la eficiencia del sistema.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál de las siguientes actividades no forma parte del ciclo de vida del desarrollo de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Mantenimiento del sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "Análisis de requerimientos.",
-                    "correct": false
-                },
-                {
-                    "answer": "Diseño del logotipo del sistema.",
-                    "correct": true
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál de las siguientes herramientas se utiliza para representar la secuencia de actividades en un proceso?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Diagrama de flujo de datos.",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de Gantt.",
-                    "correct": true
-                },
-                {
-                    "answer": "Diagrama de casos de uso.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es el objetivo principal del diseño de la seguridad en un sistema?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Prevenir cualquier intento de acceso no autorizado al sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": "Establecer los requisitos de hardware para el sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "Diseñar la interfaz de usuario del sistema.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Cuál es el papel del analista de sistemas en el ciclo de vida del desarrollo de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Programar el sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": "Documentar los requerimientos del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": "Mantener el sistema después de su implementación.",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question":"¿Qué es un diagrama de actividad en el contexto del análisis y diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Una representación visual de la estructura de una base de datos",
-                    "correct": false
-                },
-                {
-                    "answer": "Un diagrama que muestra el flujo de control entre diferentes actividades de un proceso.",
-                    "correct": true
-                },
-                {
-                    "answer": " Una técnica para recopilar requerimientos de los usuarios del sistema.",
-                    "correct": true
-                }
-            ]
-},
-{
-            "question": "¿Cuál de las siguientes herramientas es útil para documentar la interacción entre los diferentes componentes de un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Diagrama de flujo de datos (DFD)",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de clases.",
-                    "correct": false
-                },
-                {
-                    "answer": " Diagrama de secuencia",
-                    "correct": true
-                }
-            ]
-},
-{
-            "question": "¿Qué es un prototipo de software en el contexto del desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Una versión completa y finalizada del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Una representación visual del sistema sin funcionalidad.",
-                    "correct": false
-                },
-                {
-                    "answer": " Una versión inicial y parcial del sistema para obtener retroalimentación de los usuarios",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Cuál es el propósito del modelado de datos en el diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Definir los flujos de información en el sistema",
-                    "correct": false
-                },
-                {
-                    "answer": " Representar la estructura y relaciones de los datos utilizados por el sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": "Establecer los requisitos de hardware del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Qué es la normalización en el contexto del diseño de bases de datos",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " El proceso de eliminar redundancias y mejorar la eficiencia del sistema",
-                    "correct": true
-                },
-                {
-                    "answer": "El proceso de diseñar la interfaz de usuario del sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": " El proceso de documentar los requerimientos del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Qué es un diagrama de despliegue en el contexto del diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Un diagrama que muestra la interacción entre los usuarios y el sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Un diagrama que muestra cómo se distribuyen los componentes de software en diferentes dispositivos de hardware.",
-                    "correct": true
-                },
-                {
-                    "answer": " Un diagrama que muestra el flujo de control dentro de un proceso del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál es el propósito de realizar pruebas de rendimiento en el desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Evaluar la usabilidad y facilidad de uso del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Verificar que el sistema cumple con los estándares de seguridad establecidos.",
-                    "correct": false
-                },
-                {
-                    "answer": " Medir la velocidad y eficiencia del sistema bajo condiciones de carga y estrés.",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes es una metodología tradicional de desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " SCRUM",
-                    "correct": false
-                },
-                {
-                    "answer": "Prototipado rápido.",
-                    "correct": false
-                },
-                {
-                    "answer": " Modelo en cascada (Waterfall).",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Cuál es el propósito de realizar una evaluación de riesgos en el desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Identificar los recursos necesarios para implementar el sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Analizar los posibles obstáculos y problemas que pueden surgir durante el desarrollo del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Definir los requerimientos y funcionalidades del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes actividades no forma parte del análisis de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Identificar los problemas y oportunidades del sistema existente",
-                    "correct": false
-                },
-                {
-                    "answer": "Diseñar la arquitectura del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Documentar los requerimientos del sistema",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Qué es la ingeniería de requisitos en el desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " La aplicación de principios y métodos para el diseño de interfaces de usuario",
-                    "correct": false
-                },
-                {
-                    "answer": "El proceso de recolección, documentación y gestión de los requerimientos del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " El desarrollo de algoritmos y lógica de programación para implementar el sistema",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes técnicas se utiliza para modelar la secuencia de eventos en un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Diagrama de flujo de datos (DFD)",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de casos de uso.",
-                    "correct": true
-                },
-                {
-                    "answer": " Diagrama de entidad-relación (DER)",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Cuál de las siguientes actividades forma parte del ciclo de vida del mantenimiento de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Identificar los requerimientos del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Desarrollar nuevas funcionalidades para el sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Documentar los procesos del sistema",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Cuál de las siguientes actividades no es responsabilidad del analista de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Documentar los requerimientos del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Programar el sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Realizar pruebas y depurar errores del sistema",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Qué es un diagrama de interacción en el diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Un diagrama que muestra la secuencia de actividades en un proceso",
-                    "correct": false
-                },
-                {
-                    "answer": "Un diagrama que representa la comunicación entre los componentes del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Un diagrama que muestra la estructura y relaciones entre los objetos del sistema",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Cuál de las siguientes técnicas se utiliza para evaluar la viabilidad de un proyecto de desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Análisis de requerimientos",
-                    "correct": false
-                },
-                {
-                    "answer": "Análisis de riesgos.",
-                    "correct": false
-                },
-                {
-                    "answer": " Estudio de factibilidad",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de implementación de un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Documentar los requerimientos del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Realizar pruebas de rendimiento.",
-                    "correct": false
-                },
-                {
-                    "answer": " Programar y construir el sistema",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Qué es la reingeniería de procesos en el análisis y diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " La modificación y mejora de un sistema existente para adaptarlo a nuevas necesidades",
-                    "correct": true
-                },
-                {
-                    "answer": "La recolección y documentación de los requerimientos del sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": " La planificación y gestión de proyectos de desarrollo de sistemas",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la jerarquía y relación entre los módulos de un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Diagrama de flujo de datos",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de clases.",
-                    "correct": true
-                },
-                {
-                    "answer": " Diagrama de estructura",
-                    "correct": false
-                }]
-}, 
-{
-            "question": "¿Qué es el ciclo de vida del software",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " El proceso de desarrollo de software desde la concepción hasta la entrega y mantenimiento",
-                    "correct": true
-                },
-                {
-                    "answer": "El ciclo de producción de hardware en la industria de tecnología.",
-                    "correct": false
-                },
-                {
-                    "answer": " El proceso de diseño de interfaces de usuario en el desarrollo de sistemas",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de análisis de un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Diseñar la arquitectura del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Desarrollar prototipos de software.",
-                    "correct": false
-                },
-                {
-                    "answer": " Identificar los problemas y oportunidades del sistema existente",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Qué es la ingeniería inversa en el desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " El proceso de diseñar y construir un sistema desde cero",
-                    "correct": false
-                },
-                {
-                    "answer": "El proceso de desmontar y analizar un sistema existente para entender su funcionamiento.",
-                    "correct": true
-                },
-                {
-                    "answer": " El proceso de documentar los requerimientos del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál es el propósito principal de la fase de implementación en el ciclo de vida del desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Definir los requerimientos del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Construir y programar el sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " Evaluar la efectividad del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Qué es la documentación del sistema en el contexto del análisis y diseño de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " El proceso de escribir un manual de usuario para el sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "El proceso de registrar y describir los componentes y funcionalidades del sistema.",
-                    "correct": true
-                },
-                {
-                    "answer": " El proceso de realizar pruebas y depurar errores del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la relación entre entidades en un sistema de bases de datos",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Diagrama de flujo de datos (DFD)",
-                    "correct": false
-                },
-                {
-                    "answer": "Diagrama de casos de uso.",
-                    "correct": false
-                },
-                {
-                    "answer": " Diagrama de entidad-relación (DER).",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes actividades no es parte del ciclo de vida del desarrollo de sistemas",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Análisis de requerimientos",
-                    "correct": true
-                },
-                {
-                    "answer": "Implementación del sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": " Mantenimiento del sistema.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Qué es un sistema transaccional en el contexto de los sistemas de información",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Un sistema que permite la comunicación entre diferentes usuarios",
-                    "correct": false
-                },
-                {
-                    "answer": "Un sistema que se encarga de procesar y almacenar transacciones comerciales.",
-                    "correct": true
-                },
-                {
-                    "answer": " Un sistema que utiliza algoritmos de inteligencia artificial para tomar decisiones.",
-                    "correct": false
-                }]
-},
-{
-            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de diseño de un sistema",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " Definir los requerimientos del sistema",
-                    "correct": false
-                },
-                {
-                    "answer": "Construir y programar el sistema.",
-                    "correct": false
-                },
-                {
-                    "answer": " Diseñar la arquitectura del sistema y los componentes del software.",
-                    "correct": true
-                }]
-},
-{
-            "question": "¿Qué es la usabilidad en el contexto del diseño de sistemas?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": " La capacidad de un sistema para funcionar sin interrupciones o fallas",
-                    "correct": false
-                },
-                {
-                    "answer": "La eficiencia y velocidad con la que un sistema realiza sus tareas.",
-                    "correct": false
-                },
-                {
-                    "answer": " La facilidad de uso y experiencia del usuario al interactuar con el sistema.",
-                    "correct": true
-                }]
-},
-        {
-            "question": "¿Cuál no es una ventaja de los prototipos?",
-            "enabled": true,
-            "answers": [
-                {
-                    "answer": "Los usuarios pueden estar involucrados en el diseño",
-                    "correct": false
-                },
-                {
-                    "answer": "Los usuarios pueden interpretar equivocadamente la complejidad del sistema",
-                    "correct": true
-                },
-                {
-                    "answer": "Concreta los requerimientos de una manera clara",
-                    "correct": false
-                }
-            ]
-        },
-        {
-            "question": "¿Qué es un sistema de información?",
-            "enabled": true,
-            "answers": [
-                {
-                "answer": "Un conjunto de componentes interrelacionados que recopilan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones y el control en una organización.",
-                "correct": true
-                },
-                {
-                "answer": "Un programa de computadora diseñado para realizar tareas específicas en una organización.",
-                "correct": false
-                },
-                {
-                "answer": "Una red de computadoras conectadas entre sí para compartir información.",
-                "correct": false
-                }
-            ]
-            },
-        {
-            "question": "¿Cuál es el objetivo del análisis de sistemas?",
-            "enabled": true,
-            "answers": [
-                
-                {
-                "answer": "Diseñar y desarrollar programas de computadora.",
-                "correct": false
-                },
-                {
-                    "answer": "Identificar los problemas y oportunidades en una organización y proponer soluciones basadas en sistemas de información.",
-                    "correct": true
-                    },
-                {
-                "answer": "Crear redes de computadoras para compartir información.",
-                "correct": false
-                }
-            ]
-            },
-        {
-      "question": "¿Cuál es el propósito del diseño de sistemas?",
+      "question": "¿Cuál de las siguientes opciones describe mejor la ingeniería de software?",
       "enabled": true,
       "answers": [
-        
         {
-          "answer": "Realizar pruebas y depurar programas de computadora.",
+          "answer": "Proceso de construir software sin seguir un enfoque estructurado.",
           "correct": false
         },
         {
-          "answer": "Configurar y administrar servidores de red.",
+          "answer": "Disciplina que se ocupa de todos los aspectos de la producción de software.",
+          "correct": true
+        },
+        {
+          "answer": "Técnica para diseñar hardware de computadoras.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes no es un proceso común en el desarrollo de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Análisis de requisitos.",
           "correct": false
         },
         {
-            "answer": "Definir cómo funcionará y se verá el sistema de información propuesto.",
+          "answer": "Pruebas y depuración.",
+          "correct": false
+        },
+        {
+          "answer": "Reuniones de equipo sin propósito definido.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "El modelo de cascada es una metodología de desarrollo de software que:",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Se basa en iteraciones y entregas incrementales.",
+          "correct": false
+        },
+        {
+          "answer": "Sigue una secuencia lineal de fases, donde cada fase debe completarse antes de avanzar a la siguiente.",
+          "correct": true
+        },
+        {
+          "answer": "Proporciona un marco flexible y adaptable para el desarrollo de software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "El refinamiento iterativo en el desarrollo de software se refiere a:",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "La revisión continua de los requisitos y la mejora gradual del sistema a lo largo del tiempo.",
+          "correct": true
+        },
+        {
+          "answer": "La repetición de la misma actividad sin cambios.",
+          "correct": false
+        },
+        {
+          "answer": "La descomposición de un sistema en módulos más pequeños para su análisis y diseño.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "La metodología en espiral es un enfoque que:",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Se basa en la secuenciación lineal de actividades sin posibilidad de retroceso.",
+          "correct": false
+        },        
+        {
+          "answer": "Divide un sistema en módulos más pequeños para su análisis y diseño.",
+          "correct": false
+        },
+        {
+          "answer": "Combina aspectos del modelo de cascada y del refinamiento iterativo para gestionar el riesgo de manera incremental.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes no es una metodología ágil?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "KANBAN.",
+          "correct": false
+        },
+        {
+            "answer": "Cascada",
             "correct": true
-          }
-      ]
-    },
-        {
-      "question": "¿Cuál es el objetivo de la implementación de sistemas?",
-      "enabled": true,
-      "answers": [
-        {
-          "answer": "Optimizar el rendimiento de los programas de computadora.",
-          "correct": false
         },
         {
-          "answer": "Establecer políticas de seguridad en una red de computadoras.",
-          "correct": false
-        },
-        {
-          "answer": "Hacer funcionar el sistema de información propuesto en el entorno de la organización.",
-          "correct": true
+            "answer": "SCRUM",
+            "correct": false
         }
-      ]
+        ]
     },
-        {
-      "question": "¿Qué es el mantenimiento de sistemas?",
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor el enfoque de las metodologías ágiles en el desarrollo de software?",
       "enabled": true,
       "answers": [
         {
-          "answer": "El proceso de corregir errores, realizar mejoras y adaptar el sistema de información a los cambios en la organización.",
+          "answer": "Adaptabilidad al cambio y entrega temprana de software funcional.",
           "correct": true
         },
         {
-          "answer": "La migración de un sistema antiguo a una nueva tecnología.",
+          "answer": "Planificación y ejecución detalladas desde el inicio del proyecto.",
           "correct": false
         },
         {
-          "answer": "La implementación de medidas de seguridad en una red de computadoras.",
+          "answer": "Realización de pruebas exhaustivas al final del desarrollo.",
           "correct": false
         }
       ]
     },
-        {
-      "question": "¿Qué es la ingeniería de software?",
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor el enfoque del desarrollo basado en componentes?",
       "enabled": true,
       "answers": [
-        
         {
-          "answer": "El diseño y la implementación de bases de datos.",
+          "answer": "Construcción de software mediante la integración de componentes preexistentes.",
+          "correct": true
+        },
+        {
+          "answer": "Desarrollo de software desde cero sin utilizar componentes externos.",
           "correct": false
         },
         {
-          "answer": "La configuración y administración de servidores de red.",
+          "answer": "Enfoque centrado en la documentación y el diseño arquitectónico detallado.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor el concepto de refactorización en el contexto del desarrollo de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Proceso de corregir errores en el código fuente.",
           "correct": false
         },
         {
-          "answer": "El enfoque sistemático y disciplinado para el desarrollo, operación y mantenimiento de software.",
+          "answer": "Actividad de modificar el código existente para mejorar su estructura interna sin cambiar su comportamiento externo.",
+          "correct": true
+        },
+        {
+          "answer": "Técnica para generar automáticamente pruebas unitarias.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor el propósito de las reuniones diarias en Scrum?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Revisar y ajustar el plan de proyecto.",
+          "correct": false
+        },
+        {
+          "answer": "Sincronizar al equipo, compartir el progreso y detectar posibles obstáculos.",
+          "correct": true
+        },
+        {
+          "answer": "Obtener un informe detallado de las tareas completadas por cada miembro del equipo.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál es el propósito principal del estudio de factibilidad en la administración de proyectos?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Determinar el costo total del proyecto.",
+          "correct": false
+        },
+        {
+          "answer": "Definir los roles y responsabilidades del equipo de proyecto.",
+          "correct": false
+        },
+        {
+          "answer": "Evaluar la viabilidad técnica, económica y operativa del proyecto.",
           "correct": true
         }
       ]
     },
+    {
+      "question": "¿Cuál de las siguientes técnicas se utiliza comúnmente para realizar estudios de viabilidad en proyectos de software?",
+      "enabled": true,
+      "answers": [
         {
+          "answer": "Análisis de riesgos.",
+          "correct": false
+        },
+        {
+          "answer": "Análisis de brechas.",
+          "correct": false
+        },
+        {
+          "answer": "Análisis costo-beneficio.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor la administración de proyectos?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Conjunto de prácticas, principios y técnicas utilizadas para planificar, ejecutar y controlar proyectos.",
+          "correct": true
+        },
+        {
+          "answer": "Proceso de supervisar y controlar el trabajo diario de los miembros del equipo.",
+          "correct": false
+        },
+        {
+          "answer": "Distribución equitativa de los recursos entre los proyectos de una organización.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor un diagrama de Gantt en la gestión de proyectos?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Diagrama que representa las dependencias entre las tareas del proyecto.",
+          "correct": false
+        },
+        {
+          "answer": "Diagrama que muestra la programación de actividades a lo largo del tiempo.",
+          "correct": true
+        },
+        {
+          "answer": "Diagrama que visualiza la estructura desglosada del trabajo del proyecto.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál es el beneficio principal de utilizar un diagrama de Gantt en la gestión de proyectos?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Facilita la identificación de las dependencias entre las tareas del proyecto.",
+          "correct": false
+        },
+        {
+          "answer": "Permite visualizar la duración y secuencia de las actividades del proyecto.",
+          "correct": true
+        },
+        {
+          "answer": "Proporciona una descomposición estructurada del trabajo del proyecto.",
+          "correct": false
+        }
+      ]
+    },
+{
+      "question": "¿Cuál de las siguientes opciones describe mejor un escenario en el contexto de requerimientos de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Una descripción detallada de las funcionalidades del software.",
+          "correct": false
+        },        
+        {
+          "answer": "Una lista de características prioritarias del software.",
+          "correct": false
+        },
+        {
+          "answer": "Un ejemplo concreto de interacción entre el usuario y el sistema.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor un caso de uso en el contexto de requerimientos de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Un conjunto de requisitos técnicos y operativos del sistema.",
+          "correct": false
+        },
+        {
+          "answer": "Un escenario específico que representa una interacción entre un actor y el sistema.",
+          "correct": true
+        },
+        {
+          "answer": "Una descripción de alto nivel de las funcionalidades del software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor una historia de usuario?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Una descripción breve y centrada en el usuario de una funcionalidad del software.",
+          "correct": true
+        },
+        {
+          "answer": "Una lista detallada de todas las características planificadas para el software.",
+          "correct": false
+        },
+        {
+          "answer": "Un documento formal que especifica los requisitos técnicos y operativos del software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes enunciados describe mejor el proceso de modelado de requerimientos de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Desarrollar prototipos iterativos del software para validar los requerimientos.",
+          "correct": false
+        },        
+        {
+          "answer": "Realizar pruebas exhaustivas del software para verificar su cumplimiento de los requerimientos.",
+          "correct": false
+        },
+        {
+          "answer": "Representar los requerimientos del software utilizando diagramas y otros artefactos visuales.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes tipos de requerimientos de software se refiere a las acciones que debe realizar el sistema?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Requerimientos funcionales.",
+          "correct": true
+        },
+        {
+          "answer": "Requerimientos no funcionales.",
+          "correct": false
+        },
+        {
+          "answer": "Requerimientos de rendimiento.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes tipos de requerimientos de software se refiere a las restricciones y limitaciones del sistema?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Requerimientos funcionales.",
+          "correct": false
+        },
+        {
+          "answer": "Requerimientos no funcionales.",
+          "correct": true
+        },
+        {
+          "answer": "Requerimientos de rendimiento.",
+          "correct": false
+        }
+      ]
+    },
+{
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor un prototipo en el contexto del desarrollo de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Una versión final y completa del software que se entrega al cliente.",
+          "correct": false
+        },
+        {
+          "answer": "Una representación parcial o incompleta del software que se utiliza para validar conceptos y obtener retroalimentación.",
+          "correct": true
+        },
+        {
+          "answer": "Un documento detallado que describe los requisitos y funcionalidades del software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor la experiencia del usuario (UX)?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Las emociones, percepciones y respuestas generadas por la interacción con un producto de software.",
+          "correct": true
+        },
+        {
+          "answer": "La apariencia visual y estética de un producto de software.",
+          "correct": false
+        },
+        {
+          "answer": "Las características y funcionalidades específicas de un producto de software.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor la usabilidad de un sistema de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "La facilidad con la que los usuarios pueden aprender a utilizar el sistema.",
+          "correct": false
+        },
+        {
+          "answer": "La eficiencia y rapidez con la que los usuarios pueden realizar tareas utilizando el sistema.",
+          "correct": false
+        },
+        {
+          "answer": "La satisfacción general y la comodidad experimentada por los usuarios al utilizar el sistema.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes técnicas se utiliza comúnmente para evaluar la usabilidad de un producto de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Entrevistas en profundidad con los desarrolladores del software.",
+          "correct": false
+        },
+        {
+          "answer": "Pruebas de rendimiento para medir la velocidad y capacidad del sistema.",
+          "correct": false
+        },
+        {
+          "answer": "Pruebas de usabilidad con usuarios reales que realizan tareas específicas.",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes afirmaciones describe mejor la importancia de la usabilidad en el desarrollo de software?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "La usabilidad influye en la aceptación y adopción del software por parte de los usuarios.",
+          "correct": true
+        },
+        {
+          "answer": "La usabilidad es un aspecto secundario y opcional en el desarrollo de software.",
+          "correct": false
+        },
+        {
+          "answer": "La usabilidad solo es relevante para aplicaciones web y móviles, no para software de escritorio.",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor la experiencia del usuario (UX)?",
+      "enabled": true,
+      "answers": [
+        {"answer": "El aspecto visual de un producto o sitio web.", "correct": false},
+        {"answer": "La forma en que los usuarios interactúan con un producto o sitio web.", "correct": true},
+        {"answer": "La cantidad de funciones que tiene un producto o sitio web.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes características NO es importante para la usabilidad de un producto?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Estética visual.", "correct": true},
+        {"answer": "Facilidad de aprendizaje.", "correct": false},
+        {"answer": "Eficiencia en el uso.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor la usabilidad de un producto?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La satisfacción emocional que experimenta el usuario.", "correct": false},
+        {"answer": "La facilidad con la que un usuario puede completar una tarea.", "correct": true},
+        {"answer": "La cantidad de características que tiene un producto.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál es el objetivo principal al realizar pruebas de usabilidad?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Comprobar la estética visual de un producto.", "correct": false},
+        {"answer": "Evaluar la eficiencia en el uso de un producto.", "correct": false},
+        {"answer": "Identificar problemas y mejorar la experiencia del usuario.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Qué es la arquitectura de sistemas?",
+      "enabled": true,
+      "answers": [
+        {"answer": "El diseño visual de un sistema de software.", "correct": false},
+        {"answer": "La estructura y organización de un sistema de software.", "correct": true},
+        {"answer": "El proceso de codificación de un sistema de software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un objetivo clave de la arquitectura de sistemas?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Aumentar la complejidad del sistema.", "correct": false},
+        {"answer": "Mejorar la flexibilidad y la escalabilidad del sistema.", "correct": true},
+        {"answer": "Reducir la seguridad del sistema.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Qué es el diseño a nivel de componentes?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La creación de diagramas de flujo para representar el sistema.", "correct": false},
+        {"answer": "La definición de las interfaces y la interacción entre los componentes de un sistema.", "correct": true},
+        {"answer": "La implementación de algoritmos para el funcionamiento del sistema.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor un componente en el diseño de sistemas?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Una unidad independiente y reutilizable de funcionalidad del sistema.", "correct": true},
+        {"answer": "Un elemento gráfico utilizado en la interfaz de usuario.", "correct": false},        
+        {"answer": "Una sección de código que realiza cálculos matemáticos complejos.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál es uno de los beneficios del diseño a nivel de componentes?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Aumenta la complejidad y el acoplamiento entre los componentes.", "correct": false},
+        {"answer": "Dificulta la reutilización de los componentes en otros sistemas.", "correct": false},
+        {"answer": "Promueve la modularidad y la reutilización de los componentes.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor la relación entre arquitectura de sistemas y diseño a nivel de componentes?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La arquitectura de sistemas se enfoca en la estructura general, mientras que el diseño a nivel de componentes se enfoca en la implementación detallada.", "correct": true},
+        {"answer": "La arquitectura de sistemas y el diseño a nivel de componentes son términos intercambiables que se refieren a lo mismo.", "correct": false},
+        {"answer": "La arquitectura de sistemas se refiere al diseño de hardware, mientras que el diseño a nivel de componentes se refiere al diseño de software.", "correct": false}
+      ]
+    },
+     {
+      "question": "¿Qué es la economía de la seguridad del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "El estudio de los costos asociados con el desarrollo de software.", "correct": false},
+        {"answer": "El análisis de los beneficios económicos de implementar medidas de seguridad en el software.", "correct": true},
+        {"answer": "La aplicación de principios económicos en la gestión de proyectos de software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un objetivo clave de la economía de la seguridad del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Maximizar los beneficios financieros de la organización.", "correct": false},
+        {"answer": "Minimizar los costos asociados con las brechas de seguridad en el software.", "correct": true},
+        {"answer": "Optimizar el rendimiento del software en términos de velocidad y eficiencia.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor un enfoque proactivo para la seguridad del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Responder a los incidentes de seguridad después de que ocurran.", "correct": false},
+        {"answer": "Realizar auditorías de seguridad de forma regular para identificar posibles vulnerabilidades.", "correct": true},
+        {"answer": "Aplicar parches y actualizaciones solo cuando se detecte un problema de seguridad.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál es uno de los beneficios de tener un programa de seguridad del software bien establecido dentro de una organización?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Aumentar la productividad del personal de TI de la organización.", "correct": false},
+        {"answer": "Reducir los costos asociados con las brechas de seguridad y los incidentes de violación de datos.", "correct": true},
+        {"answer": "Garantizar una interfaz de usuario intuitiva y amigable en el software utilizado por la organización.", "correct": false}
+      ]
+    },
+{
+      "question": "¿Qué es el desempeño del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La calidad general del software en términos de funcionalidad.", "correct": false},
+        {"answer": "La velocidad, eficiencia y capacidad de respuesta del software.", "correct": true},
+        {"answer": "La seguridad y robustez del software contra amenazas externas.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones puede afectar el desempeño del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La capacidad de personalización del software.", "correct": false},
+        {"answer": "El tamaño y complejidad del conjunto de datos manejado por el software.", "correct": true},
+        {"answer": "La interfaz de usuario y la experiencia del usuario.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes técnicas se utiliza comúnmente para evaluar el desempeño del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas de seguridad.", "correct": false},
+        {"answer": "Pruebas de usabilidad.", "correct": false},
+        {"answer": "Pruebas de rendimiento.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes dificultades puede enfrentar un sistema de software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Incompatibilidad con otros sistemas de software.", "correct": false},
+        {"answer": "Falta de documentación y comentarios en el código fuente.", "correct": false},
+        {"answer": "Todos los anteriores.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor el término 'escalabilidad' en el contexto de los sistemas de software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La capacidad del software para manejar múltiples tareas al mismo tiempo.", "correct": false},
+        {"answer": "La capacidad del software para adaptarse y manejar un aumento en la carga de trabajo.", "correct": true},
+        {"answer": "La capacidad del software para funcionar en diferentes sistemas operativos.", "correct": false}
+      ]
+    },
+{
+      "question": "¿Qué es la confiabilidad del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "La capacidad del software para adaptarse a diferentes plataformas.", "correct": false},
+        {"answer": "La probabilidad de que el software funcione correctamente sin fallas.", "correct": true},
+        {"answer": "La velocidad y capacidad de respuesta del software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes técnicas se utiliza para verificar el funcionamiento del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas de usabilidad.", "correct": false},
+        {"answer": "Pruebas de rendimiento.", "correct": false},
+        {"answer": "Pruebas de unidad.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor las pruebas de aceptación del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas realizadas por el equipo de desarrollo para asegurar la calidad del software.", "correct": false},
+        {"answer": "Pruebas realizadas por los usuarios finales para validar si el software cumple con los requisitos y expectativas.", "correct": true},
+        {"answer": "Pruebas automatizadas para verificar la velocidad y eficiencia del software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor las pruebas de entrega del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas realizadas para garantizar que el software sea compatible con diferentes sistemas operativos.", "correct": false},
+        {"answer": "Pruebas realizadas antes de la entrega del software para asegurar que funcione correctamente y cumpla con los requisitos.", "correct": true},
+        {"answer": "Pruebas realizadas después de la entrega del software para identificar y corregir errores.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un objetivo de las pruebas de aceptación del software?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Verificar la funcionalidad específica de cada componente del software.", "correct": false},
+        {"answer": "Validar si el software cumple con los requisitos del cliente y las expectativas del usuario.", "correct": true},
+        {"answer": "Identificar y corregir errores en el código fuente del software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Qué son las pruebas de usuario?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas realizadas por los desarrolladores para validar la funcionalidad del software.", "correct": false},
+        {"answer": "Pruebas realizadas por el equipo de control de calidad para evaluar el rendimiento del software.", "correct": false},
+        {"answer": "Pruebas realizadas por los usuarios finales para verificar el software en un entorno real.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor las pruebas alfa de usuario?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas realizadas por usuarios avanzados antes de que el software esté completamente desarrollado.", "correct": false},
+        {"answer": "Pruebas realizadas por usuarios internos en un entorno controlado y simulado.", "correct": true},
+        {"answer": "Pruebas realizadas por usuarios externos en un entorno real después del lanzamiento del software.", "correct": false}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor las pruebas beta de usuario?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas realizadas por usuarios internos en un entorno controlado y simulado.", "correct": false},
+        {"answer": "Pruebas realizadas por usuarios avanzados antes de que el software esté completamente desarrollado.", "correct": false},
+        {"answer": "Pruebas realizadas por usuarios externos en un entorno real después del lanzamiento del software.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es un objetivo de las pruebas de usabilidad?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Evaluar la seguridad y resistencia del software frente a amenazas externas.", "correct": false},
+        {"answer": "Medir la velocidad y eficiencia del software en diferentes escenarios.", "correct": false},
+        {"answer": "Evaluar la facilidad de uso y la experiencia del usuario con el software.", "correct": true}
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones describe mejor las pruebas de accesibilidad del usuario?",
+      "enabled": true,
+      "answers": [
+        {"answer": "Pruebas para evaluar la capacidad del software de manejar múltiples usuarios simultáneamente.", "correct": false},
+        {"answer": "Pruebas para verificar que el software cumple con los estándares de accesibilidad y es usable para personas con discapacidades.", "correct": true},
+        {"answer": "Pruebas para evaluar el rendimiento del software bajo diferentes cargas de trabajo.", "correct": false}
+      ]
+    },
+{
       "question": "¿Qué es el modelo entidad-relación?",
       "enabled": true,
       "answers": [
@@ -910,6 +781,24 @@
                 {
                     "answer": "Un diagrama que muestra cómo interactúan los actores con el sistema para lograr ciertos objetivos.",
                     "correct": true
+                }
+            ]
+        },
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para evaluar la usabilidad de un sistema durante el proceso de diseño?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Entrevistas con usuarios.",
+                    "correct": true
+                },
+                {
+                    "answer": " Análisis de datos históricos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Pruebas de rendimiento del sistema",
+                    "correct": false
                 }
             ]
         }

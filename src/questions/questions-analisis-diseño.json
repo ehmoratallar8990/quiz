@@ -1,0 +1,935 @@
+{
+    "questions": [
+        {
+            "question": "¿Cuál es el objetivo del análisis y diseño de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Desarrollar software sin planificación previa.",
+                    "correct": false
+                },
+                {
+                    "answer": "Identificar y solucionar problemas en los sistemas existentes.",
+                    "correct": true
+                },
+                {
+                    "answer": "Diseñar sistemas de hardware avanzados.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es una técnica común de recolección de requerimientos?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Observación.",
+                    "correct": true
+                },
+                {
+                    "answer": "Codificación.",
+                    "correct": false
+                },
+                {
+                    "answer": "Programación.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué representa un Diagrama de Flujo de Datos (DFD)?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "La estructura física de un sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "La secuencia de pasos para realizar una tarea.",
+                    "correct": false
+                },
+                {
+                    "answer": "El flujo de información entre los procesos de un sistema",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es una parte fundamental del diseño de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "La creación de casos de uso.",
+                    "correct": false
+                },
+                {
+                    "answer": "El diseño de la base de datos.",
+                    "correct": true
+                },
+                {
+                    "answer": "La documentación del sistema",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué implica el mantenimiento del sistema?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Corregir errores y mejorar el sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": "Desarrollar nuevas funcionalidades desde cero.",
+                    "correct": false
+                },
+                {
+                    "answer": "Eliminar por completo el sistema existente.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el objetivo principal del análisis de requerimientos en el desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Definir la estructura física del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Identificar las funcionalidades del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": "Diseñar la interfaz de usuario del sistema.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es la metodología ágil más utilizada en el desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Waterfall.",
+                    "correct": false
+                },
+                {
+                    "answer": "SCRUM",
+                    "correct": true
+                },
+                {
+                    "answer": "RAD (Rapid Application Development)",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la interacción entre el sistema y sus usuarios?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Diagrama de flujo de datos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de casos de uso",
+                    "correct": true
+                },
+                {
+                    "answer": "Diccionario de datos",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el objetivo principal de las pruebas de aceptación en el desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Validar que el sistema cumple con los requisitos del cliente.",
+                    "correct": true
+                },
+                {
+                    "answer": "Identificar errores y corregirlos en el sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Medir el rendimiento y la eficiencia del sistema.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál de las siguientes actividades no forma parte del ciclo de vida del desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Mantenimiento del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Análisis de requerimientos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Diseño del logotipo del sistema.",
+                    "correct": true
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál de las siguientes herramientas se utiliza para representar la secuencia de actividades en un proceso?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Diagrama de flujo de datos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de Gantt.",
+                    "correct": true
+                },
+                {
+                    "answer": "Diagrama de casos de uso.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el objetivo principal del diseño de la seguridad en un sistema?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Prevenir cualquier intento de acceso no autorizado al sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": "Establecer los requisitos de hardware para el sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Diseñar la interfaz de usuario del sistema.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Cuál es el papel del analista de sistemas en el ciclo de vida del desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Programar el sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Documentar los requerimientos del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": "Mantener el sistema después de su implementación.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question":"¿Qué es un diagrama de actividad en el contexto del análisis y diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Una representación visual de la estructura de una base de datos",
+                    "correct": false
+                },
+                {
+                    "answer": "Un diagrama que muestra el flujo de control entre diferentes actividades de un proceso.",
+                    "correct": true
+                },
+                {
+                    "answer": " Una técnica para recopilar requerimientos de los usuarios del sistema.",
+                    "correct": true
+                }
+            ]
+},
+{
+            "question": "¿Cuál de las siguientes herramientas es útil para documentar la interacción entre los diferentes componentes de un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Diagrama de flujo de datos (DFD)",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de clases.",
+                    "correct": false
+                },
+                {
+                    "answer": " Diagrama de secuencia",
+                    "correct": true
+                }
+            ]
+},
+{
+            "question": "¿Qué es un prototipo de software en el contexto del desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Una versión completa y finalizada del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Una representación visual del sistema sin funcionalidad.",
+                    "correct": false
+                },
+                {
+                    "answer": " Una versión inicial y parcial del sistema para obtener retroalimentación de los usuarios",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Cuál es el propósito del modelado de datos en el diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Definir los flujos de información en el sistema",
+                    "correct": false
+                },
+                {
+                    "answer": " Representar la estructura y relaciones de los datos utilizados por el sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": "Establecer los requisitos de hardware del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Qué es la normalización en el contexto del diseño de bases de datos",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " El proceso de eliminar redundancias y mejorar la eficiencia del sistema",
+                    "correct": true
+                },
+                {
+                    "answer": "El proceso de diseñar la interfaz de usuario del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": " El proceso de documentar los requerimientos del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Qué es un diagrama de despliegue en el contexto del diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Un diagrama que muestra la interacción entre los usuarios y el sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Un diagrama que muestra cómo se distribuyen los componentes de software en diferentes dispositivos de hardware.",
+                    "correct": true
+                },
+                {
+                    "answer": " Un diagrama que muestra el flujo de control dentro de un proceso del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál es el propósito de realizar pruebas de rendimiento en el desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Evaluar la usabilidad y facilidad de uso del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Verificar que el sistema cumple con los estándares de seguridad establecidos.",
+                    "correct": false
+                },
+                {
+                    "answer": " Medir la velocidad y eficiencia del sistema bajo condiciones de carga y estrés.",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes es una metodología tradicional de desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " SCRUM",
+                    "correct": false
+                },
+                {
+                    "answer": "Prototipado rápido.",
+                    "correct": false
+                },
+                {
+                    "answer": " Modelo en cascada (Waterfall).",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Cuál es el propósito de realizar una evaluación de riesgos en el desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Identificar los recursos necesarios para implementar el sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Analizar los posibles obstáculos y problemas que pueden surgir durante el desarrollo del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Definir los requerimientos y funcionalidades del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes actividades no forma parte del análisis de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Identificar los problemas y oportunidades del sistema existente",
+                    "correct": false
+                },
+                {
+                    "answer": "Diseñar la arquitectura del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Documentar los requerimientos del sistema",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Qué es la ingeniería de requisitos en el desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " La aplicación de principios y métodos para el diseño de interfaces de usuario",
+                    "correct": false
+                },
+                {
+                    "answer": "El proceso de recolección, documentación y gestión de los requerimientos del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " El desarrollo de algoritmos y lógica de programación para implementar el sistema",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para modelar la secuencia de eventos en un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Diagrama de flujo de datos (DFD)",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de casos de uso.",
+                    "correct": true
+                },
+                {
+                    "answer": " Diagrama de entidad-relación (DER)",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Cuál de las siguientes actividades forma parte del ciclo de vida del mantenimiento de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Identificar los requerimientos del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Desarrollar nuevas funcionalidades para el sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Documentar los procesos del sistema",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Cuál de las siguientes actividades no es responsabilidad del analista de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Documentar los requerimientos del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Programar el sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Realizar pruebas y depurar errores del sistema",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Qué es un diagrama de interacción en el diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Un diagrama que muestra la secuencia de actividades en un proceso",
+                    "correct": false
+                },
+                {
+                    "answer": "Un diagrama que representa la comunicación entre los componentes del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Un diagrama que muestra la estructura y relaciones entre los objetos del sistema",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para evaluar la viabilidad de un proyecto de desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Análisis de requerimientos",
+                    "correct": false
+                },
+                {
+                    "answer": "Análisis de riesgos.",
+                    "correct": false
+                },
+                {
+                    "answer": " Estudio de factibilidad",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de implementación de un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Documentar los requerimientos del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Realizar pruebas de rendimiento.",
+                    "correct": false
+                },
+                {
+                    "answer": " Programar y construir el sistema",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Qué es la reingeniería de procesos en el análisis y diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " La modificación y mejora de un sistema existente para adaptarlo a nuevas necesidades",
+                    "correct": true
+                },
+                {
+                    "answer": "La recolección y documentación de los requerimientos del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": " La planificación y gestión de proyectos de desarrollo de sistemas",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la jerarquía y relación entre los módulos de un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Diagrama de flujo de datos",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de clases.",
+                    "correct": true
+                },
+                {
+                    "answer": " Diagrama de estructura",
+                    "correct": false
+                }]
+}, 
+{
+            "question": "¿Qué es el ciclo de vida del software",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " El proceso de desarrollo de software desde la concepción hasta la entrega y mantenimiento",
+                    "correct": true
+                },
+                {
+                    "answer": "El ciclo de producción de hardware en la industria de tecnología.",
+                    "correct": false
+                },
+                {
+                    "answer": " El proceso de diseño de interfaces de usuario en el desarrollo de sistemas",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de análisis de un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Diseñar la arquitectura del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Desarrollar prototipos de software.",
+                    "correct": false
+                },
+                {
+                    "answer": " Identificar los problemas y oportunidades del sistema existente",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Qué es la ingeniería inversa en el desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " El proceso de diseñar y construir un sistema desde cero",
+                    "correct": false
+                },
+                {
+                    "answer": "El proceso de desmontar y analizar un sistema existente para entender su funcionamiento.",
+                    "correct": true
+                },
+                {
+                    "answer": " El proceso de documentar los requerimientos del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál es el propósito principal de la fase de implementación en el ciclo de vida del desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Definir los requerimientos del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Construir y programar el sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " Evaluar la efectividad del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Qué es la documentación del sistema en el contexto del análisis y diseño de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " El proceso de escribir un manual de usuario para el sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "El proceso de registrar y describir los componentes y funcionalidades del sistema.",
+                    "correct": true
+                },
+                {
+                    "answer": " El proceso de realizar pruebas y depurar errores del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para representar la relación entre entidades en un sistema de bases de datos",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Diagrama de flujo de datos (DFD)",
+                    "correct": false
+                },
+                {
+                    "answer": "Diagrama de casos de uso.",
+                    "correct": false
+                },
+                {
+                    "answer": " Diagrama de entidad-relación (DER).",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes actividades no es parte del ciclo de vida del desarrollo de sistemas",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Análisis de requerimientos",
+                    "correct": true
+                },
+                {
+                    "answer": "Implementación del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": " Mantenimiento del sistema.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Qué es un sistema transaccional en el contexto de los sistemas de información",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Un sistema que permite la comunicación entre diferentes usuarios",
+                    "correct": false
+                },
+                {
+                    "answer": "Un sistema que se encarga de procesar y almacenar transacciones comerciales.",
+                    "correct": true
+                },
+                {
+                    "answer": " Un sistema que utiliza algoritmos de inteligencia artificial para tomar decisiones.",
+                    "correct": false
+                }]
+},
+{
+            "question": "¿Cuál de las siguientes actividades se lleva a cabo durante la fase de diseño de un sistema",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " Definir los requerimientos del sistema",
+                    "correct": false
+                },
+                {
+                    "answer": "Construir y programar el sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": " Diseñar la arquitectura del sistema y los componentes del software.",
+                    "correct": true
+                }]
+},
+{
+            "question": "¿Qué es la usabilidad en el contexto del diseño de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": " La capacidad de un sistema para funcionar sin interrupciones o fallas",
+                    "correct": false
+                },
+                {
+                    "answer": "La eficiencia y velocidad con la que un sistema realiza sus tareas.",
+                    "correct": false
+                },
+                {
+                    "answer": " La facilidad de uso y experiencia del usuario al interactuar con el sistema.",
+                    "correct": true
+                }]
+},
+        {
+            "question": "¿Cuál no es una ventaja de los prototipos?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Los usuarios pueden estar involucrados en el diseño",
+                    "correct": false
+                },
+                {
+                    "answer": "Los usuarios pueden interpretar equivocadamente la complejidad del sistema",
+                    "correct": true
+                },
+                {
+                    "answer": "Concreta los requerimientos de una manera clara",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es un sistema de información?",
+            "enabled": true,
+            "answers": [
+                {
+                "answer": "Un conjunto de componentes interrelacionados que recopilan, procesan, almacenan y distribuyen información para apoyar la toma de decisiones y el control en una organización.",
+                "correct": true
+                },
+                {
+                "answer": "Un programa de computadora diseñado para realizar tareas específicas en una organización.",
+                "correct": false
+                },
+                {
+                "answer": "Una red de computadoras conectadas entre sí para compartir información.",
+                "correct": false
+                }
+            ]
+            },
+        {
+            "question": "¿Cuál es el objetivo del análisis de sistemas?",
+            "enabled": true,
+            "answers": [
+                
+                {
+                "answer": "Diseñar y desarrollar programas de computadora.",
+                "correct": false
+                },
+                {
+                    "answer": "Identificar los problemas y oportunidades en una organización y proponer soluciones basadas en sistemas de información.",
+                    "correct": true
+                    },
+                {
+                "answer": "Crear redes de computadoras para compartir información.",
+                "correct": false
+                }
+            ]
+            },
+        {
+      "question": "¿Cuál es el propósito del diseño de sistemas?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "Realizar pruebas y depurar programas de computadora.",
+          "correct": false
+        },
+        {
+          "answer": "Configurar y administrar servidores de red.",
+          "correct": false
+        },
+        {
+            "answer": "Definir cómo funcionará y se verá el sistema de información propuesto.",
+            "correct": true
+          }
+      ]
+    },
+        {
+      "question": "¿Cuál es el objetivo de la implementación de sistemas?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "Optimizar el rendimiento de los programas de computadora.",
+          "correct": false
+        },
+        {
+          "answer": "Establecer políticas de seguridad en una red de computadoras.",
+          "correct": false
+        },
+        {
+          "answer": "Hacer funcionar el sistema de información propuesto en el entorno de la organización.",
+          "correct": true
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es el mantenimiento de sistemas?",
+      "enabled": true,
+      "answers": [
+        {
+          "answer": "El proceso de corregir errores, realizar mejoras y adaptar el sistema de información a los cambios en la organización.",
+          "correct": true
+        },
+        {
+          "answer": "La migración de un sistema antiguo a una nueva tecnología.",
+          "correct": false
+        },
+        {
+          "answer": "La implementación de medidas de seguridad en una red de computadoras.",
+          "correct": false
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es la ingeniería de software?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "El diseño y la implementación de bases de datos.",
+          "correct": false
+        },
+        {
+          "answer": "La configuración y administración de servidores de red.",
+          "correct": false
+        },
+        {
+          "answer": "El enfoque sistemático y disciplinado para el desarrollo, operación y mantenimiento de software.",
+          "correct": true
+        }
+      ]
+    },
+        {
+      "question": "¿Qué es el modelo entidad-relación?",
+      "enabled": true,
+      "answers": [
+        
+        {
+          "answer": "Una técnica para diagramar el flujo de datos en un sistema.",
+          "correct": false
+        },
+        {
+          "answer": "Un modelo de datos que representa las entidades, los atributos y las relaciones entre las entidades en una base de datos.",
+          "correct": true
+        },
+        {
+          "answer": "Un enfoque de desarrollo rápido de aplicaciones.",
+          "correct": false
+        }
+      ]
+    },
+        {
+            "question": "¿Cuál es el objetivo principal de la fase de prueba en el ciclo de vida de desarrollo de sistemas?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Documentar los procesos y flujos de datos del sistema.",
+                    "correct": false
+                },
+                {
+                    "answer": "Validar que el sistema cumpla con los requisitos establecidos.",
+                    "correct": true
+                },
+                {
+                    "answer": "Establecer políticas de seguridad en la red.",
+                    "correct": false
+                }
+            ]
+        },
+        {
+            "question": "¿Qué es un diagrama de casos de uso?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Una representación gráfica de las relaciones entre las entidades en una base de datos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Una técnica para documentar los requisitos del sistema basada en historias de usuario.",
+                    "correct": false
+                },
+                {
+                    "answer": "Un diagrama que muestra cómo interactúan los actores con el sistema para lograr ciertos objetivos.",
+                    "correct": true
+                }
+            ]
+        },
+{
+            "question": "¿Cuál de las siguientes técnicas se utiliza para evaluar la usabilidad de un sistema durante el proceso de diseño?",
+            "enabled": true,
+            "answers": [
+                {
+                    "answer": "Entrevistas con usuarios.",
+                    "correct": true
+                },
+                {
+                    "answer": " Análisis de datos históricos.",
+                    "correct": false
+                },
+                {
+                    "answer": "Pruebas de rendimiento del sistema",
+                    "correct": false
+                }
+            ]
+        }
+    ]
+}
